@@ -3,7 +3,7 @@ function navegarA(pagina) {
     try {
         // Validar que la página exista en nuestro listado de páginas permitidas
         const paginasPermitidas = [
-            'inicio.html',
+            'index.html',
             'juegos.html',
             'noticias.html'
         ];
