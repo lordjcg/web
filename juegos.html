@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"content="los video juegos son nuestra pasion">
+    <title>JC Games - Tu Plataforma de Videojuegos</title>
+
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+
+    <link rel="icon"  href="imagenes css/logo2.jpg">
+    <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://kit.fontawesome.com/7e5b33522b.js" crossorigin="anonymous"></script>
+     <script src="script3.js"></script>
+     <script src="script4.js"></script>
+     <script src="scriptcategorias.js"></script>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+       <a href="#" class="navbar-brand">
+           <img src="imagenes css/logo2.jpg" alt="JC Games Logo" class="logo-img" style="width: 40px; height: 40px;">
+           <span>JC Games</span>
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarNav">
+           <div class="search-container d-flex md-auto">
+               <input type="text" class="form-control mr-2" placeholder="Buscar juegos...">
+               <button class="btn btn-outline-light">
+                   <i class="fas fa-search"></i>
+               </button>
+           </div>
+            <ul  class="nav-links">
+                   <li><a href="#" onclick="navegarA('inicio.html')"><i class="fas fa-home"></i>Inicio</a></li>
+                 <li><a href="#" onclick="navegarA('juegos.html')"><i class="fas fa-gamepad"></i>Juegos</a></li>
+                <li>
+                    <a href="#"><i class="fas fa-th"></i>Categorías</a>
+                    <div class="submenu-container">
+                        <div class="submenu-grid">
+                            <div class="submenu-column">
+                                <h3>Altos requisitos</h3>
+                                <ul>
+                                     <li><a href="#"><i class="fas fa-fist-raised"></i>Accion</a></li>
+                                    <li><a href="#"><i class="fas fa-compass"></i>Aventura</a></li>
+                                    <li><a href="#"><i class="fas fa-car-side"></i>Carreras</a></li>
+                                     <li><a href="#"><i class="fas fa-chess-knight"></i>Estrategia</a></li>
+                                    <li><a href="#"><i class="fas fa-football-ball"></i>Deportes</a></li>
+                                    <li><a href="#"><i class="fas fa-hat-wizard"></i>RPG</a></li>
+                                      <li><a href="#"><i class="fas fa-skull"></i>Terror</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu-column">
+                                <h3>Medios requisitos</h3>
+                                <ul>
+                                     <li><a href="#"><i class="fas fa-fist-raised"></i>Accion</a></li>
+                                    <li><a href="#"><i class="fas fa-compass"></i>Aventura</a></li>
+                                    <li><a href="#"><i class="fas fa-car-side"></i>Carreras</a></li>
+                                     <li><a href="#"><i class="fas fa-chess-knight"></i>Estrategia</a></li>
+                                    <li><a href="#"><i class="fas fa-football-ball"></i>Deportes</a></li>
+                                    <li><a href="#"><i class="fas fa-hat-wizard"></i>RPG</a></li>
+                                      <li><a href="#"><i class="fas fa-skull"></i>Terror</a></li>
+                                </ul>
+                            </div>
+                            <div class="submenu-column">
+                                <h3>Pocos requisitos</h3>
+                                <ul>
+                                     <li><a href="#"><i class="fas fa-fist-raised"></i>Accion</a></li>
+                                    <li><a href="#"><i class="fas fa-compass"></i>Aventura</a></li>
+                                    <li><a href="#"><i class="fas fa-car-side"></i>Carreras</a></li>
+                                     <li><a href="#"><i class="fas fa-chess-knight"></i>Estrategia</a></li>
+                                    <li><a href="#"><i class="fas fa-football-ball"></i>Deportes</a></li>
+                                    <li><a href="#"><i class="fas fa-hat-wizard"></i>RPG</a></li>
+                                      <li><a href="#"><i class="fas fa-skull"></i>Terror</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                 <li><a href="#" onclick="navegarA('noticias.html')"><i class="fas fa-newspaper"></i>Noticias</a></li>
+                 <li><a href="#Nosotros"><i class="fas fa-envelope"></i>Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+    <section id="games" class="games-section">
+        <h1 class="text-light">Todos los Juegos</h1>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="imagenes css/the-walking-dead-juegos-de-zombies-para-pc-cke.jpg" alt="The walking dead" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">The walking dead</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="imagenes css/need.jpg" alt="Need for Speed Heat" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Need for Speed Heat</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="imagenes css/STAR-WARS.jpg" alt="STAR-WARS" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">STAR WARS</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Tomb Raider .jpg" alt="Rise of the Tomb Raider" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Rise of the Tomb Raider</h4>
+                        <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/cd.jpg" alt="Call of Duty 4: Modern Warfare" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Call of Duty 4: Modern Warfare</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Motogp-22.jpg" alt="Motogp-22" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Motogp 22</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/needforspeed.jpg" alt="Need for Speed: Most Wanted 2012" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Need for Speed: Most Wanted 2012</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Resident-Evil-4-2023-Remake-Deluxe-Edition-193x288.jpg" alt="Resident-Evil-4-2023-Remake" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Resident Evil 4 2023 Remake</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/The-Last-of-Us-Part-I-Deluxe-Edition-1-193x288.jpg" alt="The-Last-of-Us-Part-I" class="game-image">
+                <div class="game-info">
+                      <h4 class="text-light">The Last Of Us</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Rockt league.jpeg" alt=" Rocket League" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Rocket League</h4>
+                 <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/forza horizon 5.jpeg" alt="Forza Horizon 5" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Forza Horizon 5</h4>
+                     <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="gamej-card">
+                        <img src="imagenes css/watch.jpeg" alt="watch Dogs" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">watch Dogs</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+              <div class="game-card">
+                <img src="imagenes css/god-of-war-en-pc_862x485.jpg" alt="God of War" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">God of War</h4>
+              <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/forza horizon 4.jpeg" alt="forza horizon 4" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Forza Horizon 4</h4>
+                 <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="gamej-card">
+                        <img src="imagenes css/battlefield.jpeg" alt="Battlefield 2042" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Battlefield 2042</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+                    <div class="gamej-card">
+                        <img src="imagenes css/needf.jpeg" alt="Need for speed Most wanted" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Need for speed Most wanted</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+                    <div class="gamej-card">
+                        <img src="imagenes css/battlefield1.jpeg" alt="Battlefied 1" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Battlefied 1</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+              <div class="game-card">
+                <img src="imagenes css/dying-light-juegos-de-zombies-para-pc-cke.jpg" alt="Dying-Light" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Dying Light</h4>
+                     <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Dying-Light-2-Stay-Human.jpeg" alt="Dying-Light 2" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Dying Light 2 Stay Human</h4>
+                     <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/metro 2033.jpg" alt="Metro 2033" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Metro 2033</h4>
+                   <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/left 4 dead.jpg" alt="Left 4 Dead 2" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Left 4 Dead 2</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/blac.jpeg" alt="call-of-duty-black-ops-iii" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Call Of Duty Black Ops 3</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/call of duty cold war.jpg" alt="Call of Duty Black Ops Cold War" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Call of Duty Black Ops Cold War</h4>
+                    <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/Chernobylite-193x288.jpg" alt="Chernobylite" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Chernobylite</h4>
+                     <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/God-of-War-Ragnarok-1.jpg" alt="God of War Ragnarok" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">God of War Ragnarok</h4>
+                <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+              <div class="game-card">
+                <img src="imagenes css/batman-arkham-origins-complete-edition-10250-poster-193x288.jpg" alt="batman-arkham-origins" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Batman Arkham Origins</h4>
+                   <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="gamej-card">
+                        <img src="imagenes css/gta-v-e1589898861821.jpg" alt="gta v" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Grand Theft Auto V</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+                    <div class="gamej-card">
+                        <img src="imagenes css/hq720.jpg" alt="Dead Island" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Dead Island</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+                     <div class="gamej-card">
+                        <img src="imagenes css/resident-evil-2-juegos-de-zombies-para-pc-0-cke.jpg" alt="Resident Evil 2" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Resident Evil 2</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+                     <div class="gamej-card">
+                        <img src="imagenes css/metro.jpeg" alt="Metro Exodus" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Metro Exodus</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+                     <div class="gamej-card">
+                        <img src="imagenes css/call-of-duty-world-at-war.jpg" alt="call-of-duty-world-at-war" class="game-image">
+                        <div class="gamej-info">
+                            <h4 class="text-light">Call of Duty World at war</h4>
+                             <a href="#download" class="download-button">Descargar</a>
+
+                        </div>
+                    </div>
+
+
+            <div class="game-card">
+                <img src="imagenes css/Daymare-1994-Sandcastle-193x288.jpg" alt="Daymare-1994-Sandcastle" class="game-image">
+                <div class="game-info">
+                     <h4 class="text-light">Daymare 1994 Sandcastle</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Back-4-Blood-Ultimate-Edition-193x288.jpg" alt="Back-4-Blood-Ultimate" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Back 4 Blood Ultimate</h4>
+
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Uncharted-4-Legacy-of-Thieves-Collection-193x288.jpg" alt="Uncharted-4-Legacy-of-Thieves" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Uncharted 4 Legacy of Thieves</h4>
+
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Company-of-Heroes-3-Premium-Edition-193x288.jpg" alt="Company-of-Heroes-3" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Company of Heroes 3</h4>
+
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Lords-of-the-Fallen-Deluxe-Edition-193x288.jpg" alt="Lords-of-the-Fallen" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Lords of the Fallen</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Zombie-Army-4-Dead-War-193x288.jpg" alt="Zombie-Army-4-Dead-War" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Zombie Army 4 Dead War</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Mafia-III-Definitive-Edition-1-193x288.jpg" alt="Mafia-III-Definitive-Edition" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Mafia III Definitive Edition</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <img src="imagenes css/Marvels-SpiderMan-Miles-Morales-193x288.jpg" alt="Marvels-SpiderMan-Miles-Morales" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Marvels SpiderMan Miles Morales</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+                </div>
+            </div>
+
+             <div class="game-card">
+                <img src="imagenes css/stay.jpeg" alt="State of Decay 2" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">State of Decay 2</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+             <div class="game-card">
+                <img src="imagenes css/Cyberpunk-2077-193x288.jpg" alt="Cyberpunk-2077" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">Cyberpunk 2077</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+             <div class="game-card">
+                <img src="imagenes css/ELDEN-RING-193x288.jpg" alt="ELDEN-RING" class="game-image">
+                <div class="game-info">
+                    <h4 class="text-light">ELDEN RING</h4>
+                       <a href="#download" class="download-button">Descargar</a>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+   <!-- aqui el aside-->
+
+
+    <!-- aqui el pie de pagina-->
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 id="Nosotros">Sobre Nosotros</h3>
+                <p>JC Games es tu destino para los mejores juegos y experiencias gaming.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Enlaces Rápidos</h3>
+                <ul class="footer-links">
+                  <li><a href="#" onclick="navegarA('juegos.html')"><i class="fas fa-gamepad"></i>Juegos</a></li>
+                  
+                  <li><a href="#" onclick="navegarA('noticias.html')"><i class="fas fa-newspaper"></i>Noticias</a></li>
+
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Síguenos</h3>
+                <div class="social-links">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com
+   "><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-discord"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
